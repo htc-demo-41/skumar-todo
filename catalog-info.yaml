@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "skumar-todo"
+  description: "Test out humanitec"
+  tags:
+    - java
+    - quarkus
+  annotations:
+    'github.com/project-slug': htc-demo-41/skumar-todo
+    'backstage.io/kubernetes-id': skumar-todo
+    'humanitec.com/orgId': "htc-demo-41"
+    'humanitec.com/appId': "skumar-todo"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/sekumar"
